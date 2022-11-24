@@ -1,4 +1,7 @@
 /*GENERAL*/
+header,main,div,aside {
+    border: 1px dashed black;
+}
 header {
     min-height: 500px;
 }
@@ -8,9 +11,11 @@ header {
 }
 .jumbotron {
     height: 500px;
-    background-color: #1ABC9C  ;
 }
 main {
+    min-height: 200px;
+}
+aside {
     min-height: 200px;
 }
 /*UTILITIES*/
@@ -20,11 +25,28 @@ main {
 .bckDarkRed {
     background-color: #BA4B63;
 }
+.bckAcqua {
+    background-color: #1ABC9C;
+}
+.bckLightBlue {
+    background-color: #3A546D;
+}
+.bckDarkBlue {
+    background-color: #2C3E50;
+}
 /*MAIN*/
 main div .h-small {
     height: 100px;
+    min-height: 0;
 }
 main .col-12 {
-    height: 370px;
+    min-height: 370px;
 }
-
+/*ASIDE*/
+aside .row {
+    min-height: 570px;
+}
+/*FOOTER*/
+footer .row {
+    min-height: 570px;
+}
