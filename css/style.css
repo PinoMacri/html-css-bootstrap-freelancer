@@ -1,0 +1,30 @@
+/*GENERAL*/
+header {
+    min-height: 500px;
+}
+.navbar {
+    background-color: #2C3E50;
+    height: 100px;
+}
+.jumbotron {
+    height: 500px;
+    background-color: #1ABC9C  ;
+}
+main {
+    min-height: 200px;
+}
+/*UTILITIES*/
+.bckRed {
+    background-color: red;
+}
+.bckDarkRed {
+    background-color: #BA4B63;
+}
+/*MAIN*/
+main div .h-small {
+    height: 100px;
+}
+main .col-12 {
+    height: 370px;
+}
+
