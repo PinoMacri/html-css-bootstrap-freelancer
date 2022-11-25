@@ -1,7 +1,4 @@
 /*GENERAL*/
-header,main,div,aside {
-    border: 1px dashed black;
-}
 header {
     min-height: 500px;
 }
