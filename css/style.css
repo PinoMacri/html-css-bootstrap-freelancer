@@ -1,19 +1,16 @@
 /*GENERAL*/
 header {
-    min-height: 500px;
+    min-height: 100px;
 }
 .navbar {
     background-color: #2C3E50;
     height: 100px;
 }
-.jumbotron {
-    height: 500px;
-}
-main {
+main,aside {
     min-height: 200px;
 }
-aside {
-    min-height: 200px;
+.myJumbotron {
+    min-height: 470px;
 }
 /*UTILITIES*/
 .bckRed {
@@ -35,6 +32,26 @@ aside {
 .navbar-toggler-icon {
     filter: invert(1);
 }
+/*JUMBOTRON*/
+.segmentStars {
+    height: 5px;
+}
+@media screen and (min-width:768px) {
+    .col-12 h1 {
+        font-size: 50px;
+    }
+    .col-12 .textJumbotron p {
+        font-size: 25px;
+    }
+}
+@media screen and (min-width:992px) {
+    .col-12 h1 {
+    font-size: 70px;
+   }
+    .col-12 .textJumbotron p {
+        font-size: 30px;
+    }
+}
 /*MAIN*/
 main div .h-small {
     height: 100px;
@@ -44,11 +61,11 @@ main .col-12 {
     min-height: 50px;
 }
 /*ASIDE*/
-aside .row {
-    min-height: 570px;
+::placeholder {
+    color: #2C3E50;
 }
 /*FOOTER*/
 footer {
-    height: 200px;
+    min-height: 100px;
 }
 
